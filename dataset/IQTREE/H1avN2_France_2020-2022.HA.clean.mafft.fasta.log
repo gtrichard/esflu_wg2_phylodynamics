@@ -1,0 +1,703 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    minsky (AVX2, FMA3, 503 GB RAM)
+Command: ../../iqtree -s H1avN2_France_2020-2022.HA.clean.mafft.fasta -st DNA -m TESTNEW -bb 1000 -alrt 1000
+Seed:    206554 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Oct  7 11:54:54 2024
+Kernel:  AVX+FMA - 1 threads (128 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 128 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file H1avN2_France_2020-2022.HA.clean.mafft.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 146 sequences with 1776 columns, 297 distinct patterns
+142 parsimony-informative, 194 singleton sites, 1440 constant sites
+WARNING: Some sequence names are changed as follows:
+A/swine/France/44-200139/2020_HA -> A_swine_France_44-200139_2020_HA
+A/swine/France/22-200239/2020_HA -> A_swine_France_22-200239_2020_HA
+A/swine/France/35-200271/2020_HA -> A_swine_France_35-200271_2020_HA
+A/swine/France/35-200052/2020_HA -> A_swine_France_35-200052_2020_HA
+A/swine/France/35-200206/2020_HA -> A_swine_France_35-200206_2020_HA
+A/swine/France/56-200169/2020_HA -> A_swine_France_56-200169_2020_HA
+A/swine/France/29-200324/2020_HA -> A_swine_France_29-200324_2020_HA
+A/swine/France/56-200231/2020_HA -> A_swine_France_56-200231_2020_HA
+A/swine/France/56-200201/2020_HA -> A_swine_France_56-200201_2020_HA
+A/swine/France/22-200215/2020_HA -> A_swine_France_22-200215_2020_HA
+A/swine/France/28-200135/2020_HA -> A_swine_France_28-200135_2020_HA
+A/swine/France/29-200254/2020_HA -> A_swine_France_29-200254_2020_HA
+A/swine/France/53-200155/2020_HA -> A_swine_France_53-200155_2020_HA
+A/swine/France/53-200134-3/2020_HA -> A_swine_France_53-200134-3_2020_HA
+A/Sw/France/72-200462-2/2020_HA -> A_Sw_France_72-200462-2_2020_HA
+A/Sw/France/72-200461-1/2020_HA -> A_Sw_France_72-200461-1_2020_HA
+A/Sw/France/72-210053-6/2021_HA -> A_Sw_France_72-210053-6_2021_HA
+A/swine/France/72-200305/2020_HA -> A_swine_France_72-200305_2020_HA
+A/swine/France/72-200205/2020_HA -> A_swine_France_72-200205_2020_HA
+A/swine/France/72-200318/2020_HA -> A_swine_France_72-200318_2020_HA
+A/swine/France/22-200258/2020_HA -> A_swine_France_22-200258_2020_HA
+A/swine/France/22-200113/2020_HA -> A_swine_France_22-200113_2020_HA
+A/swine/France/22-200322/2020_HA -> A_swine_France_22-200322_2020_HA
+A/swine/France/22-200286/2020_HA -> A_swine_France_22-200286_2020_HA
+A/swine/France/22-200269/2020_HA -> A_swine_France_22-200269_2020_HA
+A/swine/France/35-200238/2020_HA -> A_swine_France_35-200238_2020_HA
+A/Sw/France/35-200425-2/2020_HA -> A_Sw_France_35-200425-2_2020_HA
+A/Sw/France/35-200438-2/2020_HA -> A_Sw_France_35-200438-2_2020_HA
+A/Sw/France/35-200470-2/2020_HA -> A_Sw_France_35-200470-2_2020_HA
+A/Sw/France/49-200353-3/2020_HA -> A_Sw_France_49-200353-3_2020_HA
+A/Sw/France/44-200384-2/2020_HA -> A_Sw_France_44-200384-2_2020_HA
+A/Sw/France/44-200460-3/2020_HA -> A_Sw_France_44-200460-3_2020_HA
+A/swine/France/22-200213/2020_HA -> A_swine_France_22-200213_2020_HA
+A/swine/France/22-200283/2020_HA -> A_swine_France_22-200283_2020_HA
+A/swine/France/22-200281/2020_HA -> A_swine_France_22-200281_2020_HA
+A/swine/France/22-200175/2020_HA -> A_swine_France_22-200175_2020_HA
+A/swine/France/22-200171/2020_HA -> A_swine_France_22-200171_2020_HA
+A/swine/France/22-200236/2020_HA -> A_swine_France_22-200236_2020_HA
+A/swine/France/35-200154/2020_HA -> A_swine_France_35-200154_2020_HA
+A/swine/France/22-200235/2020_HA -> A_swine_France_22-200235_2020_HA
+A/Sw/France/22-210030-2/2020_HA -> A_Sw_France_22-210030-2_2020_HA
+A/Sw/France/22-210119-1/2020_HA -> A_Sw_France_22-210119-1_2020_HA
+A/swine/France/22-200207/2020_HA -> A_swine_France_22-200207_2020_HA
+A/swine/France/22-200173/2020_HA -> A_swine_France_22-200173_2020_HA
+A/Sw/France/35-200154-1/2020_HA -> A_Sw_France_35-200154-1_2020_HA
+A/swine/France/22-200278/2020_HA -> A_swine_France_22-200278_2020_HA
+A/swine/France/22-200237/2020_HA -> A_swine_France_22-200237_2020_HA
+A/swine/France/22-200177/2020_HA -> A_swine_France_22-200177_2020_HA
+A/swine/France/22-200241/2020_HA -> A_swine_France_22-200241_2020_HA
+A/swine/France/22-200242/2020_HA -> A_swine_France_22-200242_2020_HA
+A/swine/France/22-200413/2020_HA -> A_swine_France_22-200413_2020_HA
+A/swine/France/29-200185/2020_HA -> A_swine_France_29-200185_2020_HA
+A/swine/France/49-200216/2020_HA -> A_swine_France_49-200216_2020_HA
+A/Sw/France/50-200471-3/2020_HA -> A_Sw_France_50-200471-3_2020_HA
+A/swine/France/22-200176/2020_HA -> A_swine_France_22-200176_2020_HA
+A/swine/France/22-200228/2020_HA -> A_swine_France_22-200228_2020_HA
+A/swine/France/56-200257/2020_HA -> A_swine_France_56-200257_2020_HA
+A/swine/France/56-200256/2020_HA -> A_swine_France_56-200256_2020_HA
+A/swine/France/56-200259/2020_HA -> A_swine_France_56-200259_2020_HA
+A/Sw/France/76-210447-1/2021_HA -> A_Sw_France_76-210447-1_2021_HA
+A/swine/France/29-200133/2020_HA -> A_swine_France_29-200133_2020_HA
+A/swine/France/56-200347/2020_HA -> A_swine_France_56-200347_2020_HA
+A/swine/France/56-200050/2020_HA -> A_swine_France_56-200050_2020_HA
+A/swine/France/35-200270/2020_HA -> A_swine_France_35-200270_2020_HA
+A/swine/France/35-200275/2020_HA -> A_swine_France_35-200275_2020_HA
+A/swine/France/22-200229/2020_HA -> A_swine_France_22-200229_2020_HA
+A/swine/France/29-200252/2020_HA -> A_swine_France_29-200252_2020_HA
+A/swine/France/29-200188/2020_HA -> A_swine_France_29-200188_2020_HA
+A/Sw/France/35-200508-2/2020_HA -> A_Sw_France_35-200508-2_2020_HA
+A/swine/France/35-200300/2020_HA -> A_swine_France_35-200300_2020_HA
+A/swine/France/22-200210/2020_HA -> A_swine_France_22-200210_2020_HA
+A/swine/France/56-200112/2020_HA -> A_swine_France_56-200112_2020_HA
+A/swine/France/29-200263/2020_HA -> A_swine_France_29-200263_2020_HA
+A/Sw/France/49-200490-3/2020_HA -> A_Sw_France_49-200490-3_2020_HA
+A/Sw/France/22-200382-2/2020_HA -> A_Sw_France_22-200382-2_2020_HA
+A/Sw/France/22-200435-1/2020_HA -> A_Sw_France_22-200435-1_2020_HA
+A/Sw/France/22-210505-3/2021_HA -> A_Sw_France_22-210505-3_2021_HA
+A/swine/France/22-200260/2020_HA -> A_swine_France_22-200260_2020_HA
+A/Sw/France/22-200436-2/2020_HA -> A_Sw_France_22-200436-2_2020_HA
+A/Sw/France/22-210232-2/2021_HA -> A_Sw_France_22-210232-2_2021_HA
+A/Sw/France/35-210254-2/2021_HA -> A_Sw_France_35-210254-2_2021_HA
+A/Sw/France/35-210129-2/2021_HA -> A_Sw_France_35-210129-2_2021_HA
+A/Sw/France/35-210089-3/2021_HA -> A_Sw_France_35-210089-3_2021_HA
+A/Sw/France/53-210091-2/2021_HA -> A_Sw_France_53-210091-2_2021_HA
+A/Sw/France/44-200512-1/2020_HA -> A_Sw_France_44-200512-1_2020_HA
+A/Sw/France/44-200510-2/2020_HA -> A_Sw_France_44-200510-2_2020_HA
+A/swine/France/22-200255/2020_HA -> A_swine_France_22-200255_2020_HA
+A/Sw/France/35-210519-2/2021_HA -> A_Sw_France_35-210519-2_2021_HA
+A/Sw/France/22-210252-1/2021_HA -> A_Sw_France_22-210252-1_2021_HA
+A/swine/France/22-200212/2020_HA -> A_swine_France_22-200212_2020_HA
+A/Sw/France/22-210039-1/2020_HA -> A_Sw_France_22-210039-1_2020_HA
+A/Sw/France/50-210417-5/2021_HA -> A_Sw_France_50-210417-5_2021_HA
+A/swine/France/72-200277/2020_HA -> A_swine_France_72-200277_2020_HA
+A/swine/France/72-200244/2020_HA -> A_swine_France_72-200244_2020_HA
+A/Sw/France/22-200456-2/2020_HA -> A_Sw_France_22-200456-2_2020_HA
+A/Sw/France/22-210234-2/2021_HA -> A_Sw_France_22-210234-2_2021_HA
+A/Sw/France/22-210267-4/2021_HA -> A_Sw_France_22-210267-4_2021_HA
+A/Sw/France/72-220119-1/2022_HA -> A_Sw_France_72-220119-1_2022_HA
+A/Sw/France/72-210509-4/2021_HA -> A_Sw_France_72-210509-4_2021_HA
+A/Sw/France/72-210508-1/2021_HA -> A_Sw_France_72-210508-1_2021_HA
+A/Sw/France/72-220017-3/2022_HA -> A_Sw_France_72-220017-3_2022_HA
+A/Sw/France/37-220188-1/2022_HA -> A_Sw_France_37-220188-1_2022_HA
+A/Sw/France/72-220016-1/2021_HA -> A_Sw_France_72-220016-1_2021_HA
+A/swine/France/29-200264/2020_HA -> A_swine_France_29-200264_2020_HA
+A/Sw/France/35-210062-6/2021_HA -> A_Sw_France_35-210062-6_2021_HA
+A/swine/France/35-200332/2020_HA -> A_swine_France_35-200332_2020_HA
+A/swine/France/35-200251/2020_HA -> A_swine_France_35-200251_2020_HA
+A/swine/France/35-200299/2020_HA -> A_swine_France_35-200299_2020_HA
+A/swine/France/35-200295/2020_HA -> A_swine_France_35-200295_2020_HA
+A/swine/France/35-200298/2020_HA -> A_swine_France_35-200298_2020_HA
+A/Sw/France/35-200437-1/2020_HA -> A_Sw_France_35-200437-1_2020_HA
+A/Sw/France/35-200469-2/2020_HA -> A_Sw_France_35-200469-2_2020_HA
+A/Sw/France/53-210090-4/2021_HA -> A_Sw_France_53-210090-4_2021_HA
+A/Sw/France/29-200383-3/2020_HA -> A_Sw_France_29-200383-3_2020_HA
+A/Sw/France/29-200507-2/2020_HA -> A_Sw_France_29-200507-2_2020_HA
+A/Sw/France/79-210235-4/2021_HA -> A_Sw_France_79-210235-4_2021_HA
+A/Sw/France/50-210307-1/2021_HA -> A_Sw_France_50-210307-1_2021_HA
+A/Sw/France/35-210140-1/2021_HA -> A_Sw_France_35-210140-1_2021_HA
+A/swine/France/22-200249/2020_HA -> A_swine_France_22-200249_2020_HA
+A/Sw/France/22-210317-2/2021_HA -> A_Sw_France_22-210317-2_2021_HA
+A/Sw/France/22-210295-4/2021_HA -> A_Sw_France_22-210295-4_2021_HA
+A/Sw/France/22-200454-1/2020_HA -> A_Sw_France_22-200454-1_2020_HA
+A/Sw/France/22-210512-5/2021_HA -> A_Sw_France_22-210512-5_2021_HA
+A/Sw/France/35-210165-4/2021_HA -> A_Sw_France_35-210165-4_2021_HA
+A/Sw/France/56-220651-2/2022_HA -> A_Sw_France_56-220651-2_2022_HA
+A/Sw/France/22-210301-6/2021_HA -> A_Sw_France_22-210301-6_2021_HA
+A/Sw/France/22-200505-2/2020_HA -> A_Sw_France_22-200505-2_2020_HA
+A/Sw/France/22-200486-1/2020_HA -> A_Sw_France_22-200486-1_2020_HA
+A/Sw/France/35-220448-3/2022_HA -> A_Sw_France_35-220448-3_2022_HA
+A/Sw/France/56-220533-3/2022_HA -> A_Sw_France_56-220533-3_2022_HA
+A/Sw/France/44-220189-1/2022_HA -> A_Sw_France_44-220189-1_2022_HA
+A/Sw/France/35-210370-1/2021_HA -> A_Sw_France_35-210370-1_2021_HA
+A/Sw/France/29-210515-1/2021_HA -> A_Sw_France_29-210515-1_2021_HA
+A/Sw/France/29-220173-1/2022_HA -> A_Sw_France_29-220173-1_2022_HA
+A/Sw/France/56-200441-3/2020_HA -> A_Sw_France_56-200441-3_2020_HA
+A/Sw/France/22-210399-2/2021_HA -> A_Sw_France_22-210399-2_2021_HA
+A/Sw/France/22-210446-1/2021_HA -> A_Sw_France_22-210446-1_2021_HA
+A/Sw/France/29-210451-2/2021_HA -> A_Sw_France_29-210451-2_2021_HA
+A/Sw/France/29-210041-1/2020_HA -> A_Sw_France_29-210041-1_2020_HA
+A/Sw/France/22-210311-1/2021_HA -> A_Sw_France_22-210311-1_2021_HA
+A/Sw/France/35-210501-6/2021_HA -> A_Sw_France_35-210501-6_2021_HA
+A/Sw/France/49-230070-3/2022_HA -> A_Sw_France_49-230070-3_2022_HA
+A/Sw/France/53-230071-5/2022_HA -> A_Sw_France_53-230071-5_2022_HA
+A/Sw/France/29-220615-2/2022_HA -> A_Sw_France_29-220615-2_2022_HA
+A/Sw/France/29-220685-3/2022_HA -> A_Sw_France_29-220685-3_2022_HA
+A/Sw/France/49-220101-1/2022_HA -> A_Sw_France_49-220101-1_2022_HA
+
+                                    Gap/Ambiguity  Composition  p-value
+   1  A_swine_France_44-200139_2020_HA      1.86%    passed     99.99%
+   2  A_swine_France_22-200239_2020_HA      1.86%    passed     99.89%
+   3  A_swine_France_35-200271_2020_HA      1.86%    passed     99.64%
+   4  A_swine_France_35-200052_2020_HA      1.86%    passed     99.69%
+   5  A_swine_France_35-200206_2020_HA      1.86%    passed     99.52%
+   6  A_swine_France_56-200169_2020_HA      1.86%    passed     99.99%
+   7  A_swine_France_29-200324_2020_HA      1.86%    passed    100.00%
+   8  A_swine_France_56-200231_2020_HA      1.86%    passed    100.00%
+   9  A_swine_France_56-200201_2020_HA      1.86%    passed    100.00%
+  10  A_swine_France_22-200215_2020_HA      1.86%    passed     99.99%
+  11  A_swine_France_28-200135_2020_HA      1.86%    passed     99.99%
+  12  A_swine_France_29-200254_2020_HA      1.86%    passed     99.99%
+  13  A_swine_France_53-200155_2020_HA      1.86%    passed     99.97%
+  14  A_swine_France_53-200134-3_2020_HA    1.86%    passed     99.97%
+  15  A_Sw_France_72-200462-2_2020_HA       1.86%    passed     99.88%
+  16  A_Sw_France_72-200461-1_2020_HA       1.86%    passed     99.88%
+  17  A_Sw_France_72-210053-6_2021_HA       1.86%    passed     99.88%
+  18  A_swine_France_72-200305_2020_HA      1.86%    passed     99.99%
+  19  A_swine_France_72-200205_2020_HA      1.86%    passed     99.92%
+  20  A_swine_France_72-200318_2020_HA      1.86%    passed    100.00%
+  21  A_swine_France_22-200258_2020_HA      1.86%    passed    100.00%
+  22  A_swine_France_22-200113_2020_HA      1.86%    passed     99.98%
+  23  A_swine_France_22-200322_2020_HA      1.86%    passed    100.00%
+  24  A_swine_France_22-200286_2020_HA      1.86%    passed    100.00%
+  25  A_swine_France_22-200269_2020_HA      1.86%    passed    100.00%
+  26  A_swine_France_35-200238_2020_HA      1.86%    passed    100.00%
+  27  A_Sw_France_35-200425-2_2020_HA       1.86%    passed     99.99%
+  28  A_Sw_France_35-200438-2_2020_HA       1.86%    passed     99.99%
+  29  A_Sw_France_35-200470-2_2020_HA       1.86%    passed     99.98%
+  30  A_Sw_France_49-200353-3_2020_HA       1.86%    passed     99.98%
+  31  A_Sw_France_44-200384-2_2020_HA       1.86%    passed     99.93%
+  32  A_Sw_France_44-200460-3_2020_HA       1.86%    passed     99.80%
+  33  A_swine_France_22-200213_2020_HA      1.86%    passed     99.99%
+  34  A_swine_France_22-200283_2020_HA      1.86%    passed     99.99%
+  35  A_swine_France_22-200281_2020_HA      1.86%    passed     99.99%
+  36  A_swine_France_22-200175_2020_HA      1.86%    passed     99.99%
+  37  A_swine_France_22-200171_2020_HA      1.91%    passed    100.00%
+  38  A_swine_France_22-200236_2020_HA      1.86%    passed     99.99%
+  39  A_swine_France_35-200154_2020_HA      1.86%    passed     99.99%
+  40  A_swine_France_22-200235_2020_HA      1.86%    passed     99.95%
+  41  A_Sw_France_22-210030-2_2020_HA       1.86%    passed     99.95%
+  42  A_Sw_France_22-210119-1_2020_HA       1.86%    passed     99.95%
+  43  A_swine_France_22-200207_2020_HA      1.86%    passed    100.00%
+  44  A_swine_France_22-200173_2020_HA      1.86%    passed     99.95%
+  45  A_Sw_France_35-200154-1_2020_HA       1.86%    passed    100.00%
+  46  A_swine_France_22-200278_2020_HA      1.86%    passed     99.83%
+  47  A_swine_France_22-200237_2020_HA      1.86%    passed     99.99%
+  48  A_swine_France_22-200177_2020_HA      1.86%    passed     99.83%
+  49  A_swine_France_22-200241_2020_HA      1.86%    passed     99.97%
+  50  A_swine_France_22-200242_2020_HA      1.86%    passed     99.98%
+  51  A_swine_France_22-200413_2020_HA      1.86%    passed     99.99%
+  52  A_swine_France_29-200185_2020_HA      1.86%    passed    100.00%
+  53  A_swine_France_49-200216_2020_HA      1.86%    passed     99.93%
+  54  A_Sw_France_50-200471-3_2020_HA       1.86%    passed     99.95%
+  55  A_swine_France_22-200176_2020_HA      1.86%    passed     99.69%
+  56  A_swine_France_22-200228_2020_HA      1.86%    passed     99.69%
+  57  A_swine_France_56-200257_2020_HA      1.86%    passed     99.69%
+  58  A_swine_France_56-200256_2020_HA      1.86%    passed     99.69%
+  59  A_swine_France_56-200259_2020_HA      1.86%    passed     99.58%
+  60  A_Sw_France_76-210447-1_2021_HA       1.86%    passed     99.92%
+  61  A_swine_France_29-200133_2020_HA      1.86%    passed     99.98%
+  62  A_swine_France_56-200347_2020_HA      1.86%    passed    100.00%
+  63  A_swine_France_56-200050_2020_HA      1.86%    passed    100.00%
+  64  A_swine_France_35-200270_2020_HA      1.86%    passed     99.92%
+  65  A_swine_France_35-200275_2020_HA      1.86%    passed     99.98%
+  66  A_swine_France_22-200229_2020_HA      1.86%    passed     99.99%
+  67  A_swine_France_29-200252_2020_HA      1.86%    passed    100.00%
+  68  A_swine_France_29-200188_2020_HA      1.86%    passed     99.89%
+  69  A_Sw_France_35-200508-2_2020_HA       1.86%    passed     99.85%
+  70  A_swine_France_35-200300_2020_HA      1.86%    passed     99.95%
+  71  A_swine_France_22-200210_2020_HA      1.86%    passed    100.00%
+  72  A_swine_France_56-200112_2020_HA      1.86%    passed     99.98%
+  73  A_swine_France_29-200263_2020_HA      1.86%    passed     99.81%
+  74  A_Sw_France_49-200490-3_2020_HA       1.86%    passed     99.98%
+  75  A_Sw_France_22-200382-2_2020_HA       1.86%    passed     99.87%
+  76  A_Sw_France_22-200435-1_2020_HA       1.86%    passed    100.00%
+  77  A_Sw_France_22-210505-3_2021_HA       1.86%    passed     99.95%
+  78  A_swine_France_22-200260_2020_HA      1.86%    passed     99.89%
+  79  A_Sw_France_22-200436-2_2020_HA       1.86%    passed     99.47%
+  80  A_Sw_France_22-210232-2_2021_HA       1.86%    passed     99.24%
+  81  A_Sw_France_35-210254-2_2021_HA       1.86%    passed     99.90%
+  82  A_Sw_France_35-210129-2_2021_HA       1.86%    passed     99.75%
+  83  A_Sw_France_35-210089-3_2021_HA       1.86%    passed     99.75%
+  84  A_Sw_France_53-210091-2_2021_HA       1.86%    passed     99.75%
+  85  A_Sw_France_44-200512-1_2020_HA       1.86%    passed     99.72%
+  86  A_Sw_France_44-200510-2_2020_HA       1.86%    passed     99.72%
+  87  A_swine_France_22-200255_2020_HA      1.86%    passed     99.95%
+  88  A_Sw_France_35-210519-2_2021_HA       1.86%    passed     99.20%
+  89  A_Sw_France_22-210252-1_2021_HA       1.86%    passed     99.95%
+  90  A_swine_France_22-200212_2020_HA      1.91%    passed     99.83%
+  91  A_Sw_France_22-210039-1_2020_HA       1.86%    passed     99.85%
+  92  A_Sw_France_50-210417-5_2021_HA       1.86%    passed    100.00%
+  93  A_swine_France_72-200277_2020_HA      1.86%    passed     99.80%
+  94  A_swine_France_72-200244_2020_HA      1.86%    passed     99.92%
+  95  A_Sw_France_22-200456-2_2020_HA       1.86%    passed     99.94%
+  96  A_Sw_France_22-210234-2_2021_HA       1.86%    passed     99.83%
+  97  A_Sw_France_22-210267-4_2021_HA       1.86%    passed    100.00%
+  98  A_Sw_France_72-220119-1_2022_HA       1.86%    passed     99.98%
+  99  A_Sw_France_72-210509-4_2021_HA       1.86%    passed     99.98%
+ 100  A_Sw_France_72-210508-1_2021_HA       1.86%    passed     99.98%
+ 101  A_Sw_France_72-220017-3_2022_HA       1.86%    passed     99.95%
+ 102  A_Sw_France_37-220188-1_2022_HA       1.86%    passed     99.79%
+ 103  A_Sw_France_72-220016-1_2021_HA       1.86%    passed     99.64%
+ 104  A_swine_France_29-200264_2020_HA      1.86%    passed     99.99%
+ 105  A_Sw_France_35-210062-6_2021_HA       1.86%    passed     99.92%
+ 106  A_swine_France_35-200332_2020_HA      1.86%    passed     99.92%
+ 107  A_swine_France_35-200251_2020_HA      1.86%    passed     99.92%
+ 108  A_swine_France_35-200299_2020_HA      1.86%    passed     99.92%
+ 109  A_swine_France_35-200295_2020_HA      1.86%    passed     99.92%
+ 110  A_swine_France_35-200298_2020_HA      1.86%    passed     99.95%
+ 111  A_Sw_France_35-200437-1_2020_HA       1.86%    passed     99.82%
+ 112  A_Sw_France_35-200469-2_2020_HA       1.86%    passed     99.58%
+ 113  A_Sw_France_53-210090-4_2021_HA       1.86%    passed     99.98%
+ 114  A_Sw_France_29-200383-3_2020_HA       1.86%    passed     99.98%
+ 115  A_Sw_France_29-200507-2_2020_HA       1.86%    passed    100.00%
+ 116  A_Sw_France_79-210235-4_2021_HA       0.73%    passed     99.69%
+ 117  A_Sw_France_50-210307-1_2021_HA       1.86%    passed     99.31%
+ 118  A_Sw_France_35-210140-1_2021_HA       1.86%    passed     99.94%
+ 119  A_swine_France_22-200249_2020_HA      0.00%    passed     98.89%
+ 120  A_Sw_France_22-210317-2_2021_HA       1.86%    passed     99.95%
+ 121  A_Sw_France_22-210295-4_2021_HA       1.86%    passed     99.64%
+ 122  A_Sw_France_22-200454-1_2020_HA       1.86%    passed     99.69%
+ 123  A_Sw_France_22-210512-5_2021_HA       1.86%    passed     99.37%
+ 124  A_Sw_France_35-210165-4_2021_HA       1.86%    passed     99.87%
+ 125  A_Sw_France_56-220651-2_2022_HA       1.86%    passed     99.42%
+ 126  A_Sw_France_22-210301-6_2021_HA       1.86%    passed     99.99%
+ 127  A_Sw_France_22-200505-2_2020_HA       1.86%    passed     99.64%
+ 128  A_Sw_France_22-200486-1_2020_HA       1.86%    passed     99.87%
+ 129  A_Sw_France_35-220448-3_2022_HA       1.86%    passed     99.92%
+ 130  A_Sw_France_56-220533-3_2022_HA       1.86%    passed     99.55%
+ 131  A_Sw_France_44-220189-1_2022_HA       1.86%    passed     99.94%
+ 132  A_Sw_France_35-210370-1_2021_HA       1.86%    passed     99.61%
+ 133  A_Sw_France_29-210515-1_2021_HA       1.86%    passed     99.98%
+ 134  A_Sw_France_29-220173-1_2022_HA       1.86%    passed     99.90%
+ 135  A_Sw_France_56-200441-3_2020_HA       1.86%    passed     99.77%
+ 136  A_Sw_France_22-210399-2_2021_HA       1.86%    passed     99.52%
+ 137  A_Sw_France_22-210446-1_2021_HA       1.86%    passed     99.84%
+ 138  A_Sw_France_29-210451-2_2021_HA       1.86%    passed     99.82%
+ 139  A_Sw_France_29-210041-1_2020_HA       1.86%    passed     99.78%
+ 140  A_Sw_France_22-210311-1_2021_HA       1.24%    passed     99.71%
+ 141  A_Sw_France_35-210501-6_2021_HA       1.86%    passed     99.48%
+ 142  A_Sw_France_49-230070-3_2022_HA       1.86%    passed     99.98%
+ 143  A_Sw_France_53-230071-5_2022_HA       1.86%    passed     99.98%
+ 144  A_Sw_France_29-220615-2_2022_HA       1.86%    passed     95.39%
+ 145  A_Sw_France_29-220685-3_2022_HA       1.86%    passed     99.60%
+ 146  A_Sw_France_49-220101-1_2022_HA       1.86%    passed     99.92%
+****  TOTAL                                 1.83%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: A_swine_France_56-200231_2020_HA is identical to A_swine_France_29-200324_2020_HA but kept for subsequent analysis
+NOTE: A_swine_France_53-200134-3_2020_HA is identical to A_swine_France_53-200155_2020_HA but kept for subsequent analysis
+NOTE: A_Sw_France_72-200461-1_2020_HA is identical to A_Sw_France_72-200462-2_2020_HA but kept for subsequent analysis
+NOTE: A_swine_France_35-200238_2020_HA is identical to A_swine_France_22-200269_2020_HA but kept for subsequent analysis
+NOTE: A_Sw_France_35-200438-2_2020_HA is identical to A_Sw_France_35-200425-2_2020_HA but kept for subsequent analysis
+NOTE: A_swine_France_22-200283_2020_HA is identical to A_swine_France_22-200213_2020_HA but kept for subsequent analysis
+NOTE: A_Sw_France_22-210119-1_2020_HA is identical to A_Sw_France_22-210030-2_2020_HA but kept for subsequent analysis
+NOTE: A_swine_France_22-200228_2020_HA is identical to A_swine_France_22-200176_2020_HA but kept for subsequent analysis
+NOTE: A_Sw_France_35-210089-3_2021_HA is identical to A_Sw_France_35-210129-2_2021_HA but kept for subsequent analysis
+NOTE: A_Sw_France_44-200510-2_2020_HA is identical to A_Sw_France_44-200512-1_2020_HA but kept for subsequent analysis
+NOTE: A_Sw_France_72-210509-4_2021_HA is identical to A_Sw_France_72-220119-1_2022_HA but kept for subsequent analysis
+NOTE: A_swine_France_35-200332_2020_HA is identical to A_Sw_France_35-210062-6_2021_HA but kept for subsequent analysis
+NOTE: 13 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: A_swine_France_56-200201_2020_HA (identical to A_swine_France_29-200324_2020_HA) is ignored but added at the end
+NOTE: A_Sw_France_72-210053-6_2021_HA (identical to A_Sw_France_72-200462-2_2020_HA) is ignored but added at the end
+NOTE: A_swine_France_22-200281_2020_HA (identical to A_swine_France_22-200213_2020_HA) is ignored but added at the end
+NOTE: A_swine_France_22-200175_2020_HA (identical to A_swine_France_22-200213_2020_HA) is ignored but added at the end
+NOTE: A_swine_France_22-200236_2020_HA (identical to A_swine_France_22-200213_2020_HA) is ignored but added at the end
+NOTE: A_swine_France_35-200154_2020_HA (identical to A_swine_France_22-200213_2020_HA) is ignored but added at the end
+NOTE: A_swine_France_56-200257_2020_HA (identical to A_swine_France_22-200176_2020_HA) is ignored but added at the end
+NOTE: A_swine_France_56-200256_2020_HA (identical to A_swine_France_22-200176_2020_HA) is ignored but added at the end
+NOTE: A_Sw_France_53-210091-2_2021_HA (identical to A_Sw_France_35-210129-2_2021_HA) is ignored but added at the end
+NOTE: A_Sw_France_72-210508-1_2021_HA (identical to A_Sw_France_72-220119-1_2022_HA) is ignored but added at the end
+NOTE: A_swine_France_35-200251_2020_HA (identical to A_Sw_France_35-210062-6_2021_HA) is ignored but added at the end
+NOTE: A_swine_France_35-200299_2020_HA (identical to A_Sw_France_35-210062-6_2021_HA) is ignored but added at the end
+NOTE: A_swine_France_35-200295_2020_HA (identical to A_Sw_France_35-210062-6_2021_HA) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to H1avN2_France_2020-2022.HA.clean.mafft.fasta.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.006 seconds
+NOTE: ModelFinder requires 14 MB RAM!
+ModelFinder will test 286 DNA models (sample size: 1776) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            6078.548     263 12683.095    12774.937    14124.893
+  2  JC+I          6039.868     264 12607.737    12700.337    14055.016
+  3  JC+G4         6035.807     264 12599.614    12692.215    14046.894
+  4  JC+I+G4       6034.792     265 12599.583    12692.948    14052.345
+  5  JC+R2         6032.139     265 12594.277    12687.642    14047.039
+  6  JC+R3         6030.663     267 12595.326    12690.228    14059.052
+ 14  F81+F         6005.281     266 12542.563    12636.694    14000.807
+ 15  F81+F+I       5967.741     267 12469.482    12564.384    13933.208
+ 16  F81+F+G4      5963.628     267 12461.257    12556.159    13924.983
+ 17  F81+F+I+G4    5962.719     268 12461.438    12557.114    13930.645
+ 18  F81+F+R2      5959.970     268 12455.941    12551.617    13925.149
+ 19  F81+F+R3      5958.564     270 12457.127    12554.363    13937.299
+ 27  K2P           5833.021     264 12194.042    12286.643    13641.321
+ 28  K2P+I         5794.022     265 12118.044    12211.408    13570.806
+ 29  K2P+G4        5789.970     265 12109.941    12203.305    13562.702
+ 30  K2P+I+G4      5788.931     266 12109.862    12203.994    13568.106
+ 31  K2P+R2        5786.067     266 12104.135    12198.266    13562.378
+ 32  K2P+R3        5784.725     268 12105.449    12201.125    13574.657
+ 40  HKY+F         5756.615     267 12047.229    12142.131    13510.955
+ 41  HKY+F+I       5720.735     268 11977.470    12073.146    13446.678
+ 42  HKY+F+G4      5716.737     268 11969.473    12065.149    13438.681
+ 43  HKY+F+I+G4    5716.057     269 11970.115    12066.569    13444.804
+ 44  HKY+F+R2      5713.350     269 11964.701    12061.155    13439.391
+ 45  HKY+F+R3      5712.373     271 11966.746    12064.767    13452.400
+ 53  TNe           5829.250     265 12188.501    12281.865    13641.262
+ 54  TNe+I         5790.204     266 12112.409    12206.540    13570.652
+ 55  TNe+G4        5786.273     266 12104.547    12198.678    13562.790
+ 56  TNe+I+G4      5785.291     267 12104.581    12199.483    13568.307
+ 57  TNe+R2        5782.485     267 12098.971    12193.873    13562.696
+ 58  TNe+R3        5781.397     269 12100.794    12197.248    13575.484
+ 66  TN+F          5756.410     268 12048.819    12144.495    13518.027
+ 67  TN+F+I        5720.478     269 11978.957    12075.411    13453.646
+ 68  TN+F+G4       5716.500     269 11970.999    12067.453    13445.689
+ 69  TN+F+I+G4     5715.830     270 11971.660    12068.896    13451.833
+ 70  TN+F+R2       5713.062     270 11966.124    12063.360    13446.297
+ 71  TN+F+R3       5712.145     272 11968.289    12067.100    13459.426
+ 79  K3P           5829.985     265 12189.971    12283.335    13642.732
+ 80  K3P+I         5791.007     266 12114.015    12208.146    13572.258
+ 81  K3P+G4        5786.973     266 12105.947    12200.078    13564.191
+ 82  K3P+I+G4      5785.931     267 12105.862    12200.764    13569.588
+ 83  K3P+R2        5782.642     267 12099.284    12194.186    13563.010
+ 84  K3P+R3        5781.371     269 12100.742    12197.196    13575.432
+ 92  K3Pu+F        5752.732     268 12041.464    12137.140    13510.672
+ 93  K3Pu+F+I      5716.923     269 11971.846    12068.300    13446.536
+ 94  K3Pu+F+G4     5712.927     269 11963.855    12060.309    13438.545
+ 95  K3Pu+F+I+G4   5712.250     270 11964.499    12061.735    13444.672
+ 96  K3Pu+F+R2     5709.309     270 11958.618    12055.854    13438.791
+ 97  K3Pu+F+R3     5708.379     272 11960.758    12059.569    13451.895
+105  TPM2+F        5753.039     268 12042.078    12137.754    13511.286
+106  TPM2+F+I      5716.914     269 11971.828    12068.282    13446.518
+107  TPM2+F+G4     5712.925     269 11963.850    12060.304    13438.540
+108  TPM2+F+I+G4   5712.191     270 11964.382    12061.618    13444.554
+109  TPM2+F+R2     5709.140     270 11958.280    12055.516    13438.452
+110  TPM2+F+R3     5708.149     272 11960.298    12059.109    13451.435
+118  TPM2u+F       5753.038     268 12042.075    12137.752    13511.283
+119  TPM2u+F+I     5716.913     269 11971.825    12068.279    13446.515
+120  TPM2u+F+G4    5712.923     269 11963.846    12060.301    13438.536
+121  TPM2u+F+I+G4  5712.188     270 11964.376    12061.612    13444.548
+122  TPM2u+F+R2    5709.109     270 11958.217    12055.453    13438.390
+123  TPM2u+F+R3    5708.123     272 11960.246    12059.056    13451.382
+131  TPM3+F        5756.272     268 12048.544    12144.220    13517.752
+132  TPM3+F+I      5720.414     269 11978.829    12075.283    13453.519
+133  TPM3+F+G4     5716.404     269 11970.809    12067.263    13445.499
+134  TPM3+F+I+G4   5715.714     270 11971.427    12068.663    13451.599
+135  TPM3+F+R2     5712.652     270 11965.304    12062.540    13445.476
+136  TPM3+F+R3     5711.720     272 11967.441    12066.251    13458.577
+144  TPM3u+F       5756.270     268 12048.539    12144.215    13517.747
+145  TPM3u+F+I     5720.412     269 11978.824    12075.279    13453.514
+146  TPM3u+F+G4    5716.402     269 11970.804    12067.258    13445.494
+147  TPM3u+F+I+G4  5715.710     270 11971.420    12068.656    13451.592
+148  TPM3u+F+R2    5712.629     270 11965.258    12062.494    13445.430
+149  TPM3u+F+R3    5711.699     272 11967.398    12066.209    13458.535
+157  TIMe          5826.218     266 12184.436    12278.567    13642.679
+158  TIMe+I        5787.190     267 12108.380    12203.282    13572.106
+159  TIMe+G4       5783.278     267 12100.555    12195.457    13564.281
+160  TIMe+I+G4     5782.288     268 12100.577    12196.253    13569.785
+161  TIMe+R2       5779.194     268 12094.387    12190.063    13563.595
+162  TIMe+R3       5778.111     270 12096.223    12193.458    13576.395
+170  TIM+F         5752.526     269 12043.051    12139.505    13517.741
+171  TIM+F+I       5716.669     270 11973.338    12070.574    13453.510
+172  TIM+F+G4      5712.694     270 11965.388    12062.624    13445.560
+173  TIM+F+I+G4    5712.019     271 11966.038    12064.059    13451.692
+174  TIM+F+R2      5709.039     271 11960.079    12058.100    13445.733
+175  TIM+F+R3      5708.129     273 11962.258    12061.861    13458.877
+183  TIM2e         5823.056     266 12178.111    12272.243    13636.355
+184  TIM2e+I       5782.638     267 12099.276    12194.178    13563.002
+185  TIM2e+G4      5778.645     267 12091.291    12186.193    13555.017
+186  TIM2e+I+G4    5777.528     268 12091.057    12186.733    13560.265
+187  TIM2e+R2      5774.149     268 12084.298    12179.974    13553.506
+188  TIM2e+R3      5772.967     270 12085.934    12183.170    13566.106
+196  TIM2+F        5752.843     269 12043.686    12140.140    13518.376
+197  TIM2+F+I      5716.679     270 11973.358    12070.594    13453.530
+198  TIM2+F+G4     5712.713     270 11965.426    12062.662    13445.599
+199  TIM2+F+I+G4   5711.982     271 11965.964    12063.985    13451.618
+200  TIM2+F+R2     5708.838     271 11959.676    12057.697    13445.330
+201  TIM2+F+R3     5707.830     273 11961.660    12061.264    13458.279
+209  TIM3e         5829.244     266 12190.489    12284.620    13648.733
+210  TIM3e+I       5790.191     267 12114.382    12209.284    13578.108
+211  TIM3e+G4      5786.260     267 12106.520    12201.422    13570.246
+212  TIM3e+I+G4    5785.263     268 12106.526    12202.202    13575.734
+213  TIM3e+R2      5781.989     268 12099.979    12195.655    13569.187
+214  TIM3e+R3      5780.871     270 12101.741    12198.977    13581.914
+222  TIM3+F        5756.079     269 12050.157    12146.611    13524.847
+223  TIM3+F+I      5720.172     270 11980.344    12077.580    13460.517
+224  TIM3+F+G4     5716.183     270 11972.366    12069.601    13452.538
+225  TIM3+F+I+G4   5715.494     271 11972.988    12071.009    13458.642
+226  TIM3+F+R2     5712.386     271 11966.771    12064.793    13452.426
+227  TIM3+F+R3     5711.417     273 11968.833    12068.436    13465.452
+235  TVMe          5821.285     267 12176.571    12271.473    13640.297
+236  TVMe+I        5780.927     268 12097.855    12193.531    13567.063
+237  TVMe+G4       5776.819     268 12089.637    12185.314    13558.845
+238  TVMe+I+G4     5775.617     269 12089.233    12185.687    13563.923
+239  TVMe+R2       5771.595     269 12081.190    12177.644    13555.880
+240  TVMe+R3       5770.123     271 12082.246    12180.267    13567.900
+248  TVM+F         5746.914     270 12033.829    12131.065    13514.001
+249  TVM+F+I       5710.785     271 11963.569    12061.591    13449.224
+250  TVM+F+G4      5706.798     271 11955.596    12053.617    13441.250
+251  TVM+F+I+G4    5706.048     272 11956.097    12054.907    13447.233
+252  TVM+F+R2      5702.744     272 11949.487    12048.298    13440.624
+253  TVM+F+R3      5701.619     274 11951.237    12051.637    13453.338
+261  SYM           5817.526     268 12171.052    12266.728    13640.260
+262  SYM+I         5776.980     269 12091.959    12188.413    13566.649
+263  SYM+G4        5773.002     269 12084.004    12180.459    13558.694
+264  SYM+I+G4      5771.876     270 12083.752    12180.987    13563.924
+265  SYM+R2        5768.347     270 12076.695    12173.931    13556.867
+266  SYM+R3        5767.048     272 12078.096    12176.906    13569.232
+274  GTR+F         5746.749     271 12035.499    12133.520    13521.153
+275  GTR+F+I       5710.569     272 11965.138    12063.948    13456.274
+276  GTR+F+G4      5706.606     272 11957.212    12056.023    13448.349
+277  GTR+F+I+G4    5705.864     273 11957.729    12057.332    13454.347
+278  GTR+F+R2      5702.636     273 11951.271    12050.875    13447.890
+279  GTR+F+R3      5701.451     275 11952.903    12054.103    13460.486
+Akaike Information Criterion:           TVM+F+R2
+Corrected Akaike Information Criterion: TVM+F+R2
+Bayesian Information Criterion:         TPM2u+F+R2
+Best-fit model: TPM2u+F+R2 chosen according to BIC
+
+All model information printed to H1avN2_France_2020-2022.HA.clean.mafft.fasta.model.gz
+CPU time for ModelFinder: 13.367 seconds (0h:0m:13s)
+Wall-clock time for ModelFinder: 13.584 seconds (0h:0m:13s)
+Generating 1000 samples for ultrafast bootstrap (seed: 206554)...
+
+NOTE: 3 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -5978.471
+2. Current log-likelihood: -5725.572
+3. Current log-likelihood: -5724.336
+4. Current log-likelihood: -5723.138
+5. Current log-likelihood: -5721.976
+6. Current log-likelihood: -5720.864
+7. Current log-likelihood: -5719.810
+8. Current log-likelihood: -5718.827
+9. Current log-likelihood: -5717.925
+10. Current log-likelihood: -5717.110
+11. Current log-likelihood: -5716.385
+12. Current log-likelihood: -5715.751
+13. Current log-likelihood: -5715.203
+14. Current log-likelihood: -5714.738
+15. Current log-likelihood: -5714.348
+16. Current log-likelihood: -5714.023
+17. Current log-likelihood: -5713.756
+18. Current log-likelihood: -5713.537
+19. Current log-likelihood: -5713.357
+20. Current log-likelihood: -5713.209
+21. Current log-likelihood: -5713.085
+22. Current log-likelihood: -5712.978
+23. Current log-likelihood: -5712.877
+Optimal log-likelihood: -5712.770
+Rate parameters:  A-C: 2.10159  A-G: 17.95568  A-T: 2.10159  C-G: 1.00000  C-T: 17.95568  G-T: 1.00000
+Base frequencies:  A: 0.347  C: 0.182  G: 0.216  T: 0.255
+Site proportion and rates:  (0.733,0.301) (0.267,2.921)
+Parameters optimization took 23 rounds (0.973 sec)
+Computing ML distances based on estimated model parameters... 0.090 sec
+Computing BIONJ tree...
+0.061 seconds
+Log-likelihood of BIONJ tree: -5712.823
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.932 second
+Computing log-likelihood of 98 initial trees ... 1.620 seconds
+Current best score: -5712.770
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -5712.669
+Iteration 10 / LogL: -5712.774 / Time: 0h:0m:5s
+Iteration 20 / LogL: -5712.774 / Time: 0h:0m:7s
+Finish initializing candidate tree set (20)
+Current best tree score: -5712.669 / CPU time: 6.883
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -5717.672 / Time: 0h:0m:11s (0h:0m:28s left)
+Iteration 40 / LogL: -5765.140 / Time: 0h:0m:14s (0h:0m:22s left)
+Iteration 50 / LogL: -5721.999 / Time: 0h:0m:17s (0h:0m:18s left)
+Log-likelihood cutoff on original alignment: -5752.810
+Iteration 60 / LogL: -5724.684 / Time: 0h:0m:21s (0h:0m:14s left)
+Iteration 70 / LogL: -5737.695 / Time: 0h:0m:24s (0h:0m:11s left)
+Iteration 80 / LogL: -5736.929 / Time: 0h:0m:28s (0h:0m:7s left)
+Iteration 90 / LogL: -5731.976 / Time: 0h:0m:31s (0h:0m:3s left)
+Iteration 100 / LogL: -5712.699 / Time: 0h:0m:34s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -5752.915
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.970
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -5712.685 / Time: 0h:0m:38s (0h:0m:32s left)
+Iteration 120 / LogL: -5712.702 / Time: 0h:0m:42s (0h:0m:28s left)
+Iteration 130 / LogL: -5712.691 / Time: 0h:0m:45s (0h:0m:24s left)
+Iteration 140 / LogL: -5712.714 / Time: 0h:0m:49s (0h:0m:21s left)
+Iteration 150 / LogL: -5712.699 / Time: 0h:0m:53s (0h:0m:17s left)
+Log-likelihood cutoff on original alignment: -5752.915
+Iteration 160 / LogL: -5712.687 / Time: 0h:0m:56s (0h:0m:14s left)
+Iteration 170 / LogL: -5712.706 / Time: 0h:0m:59s (0h:0m:10s left)
+Iteration 180 / LogL: -5712.692 / Time: 0h:1m:3s (0h:0m:7s left)
+Iteration 190 / LogL: -5712.703 / Time: 0h:1m:7s (0h:0m:3s left)
+Iteration 200 / LogL: -5712.691 / Time: 0h:1m:10s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -5752.915
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.986
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -5712.698 / Time: 0h:1m:14s (0h:0m:32s left)
+Iteration 220 / LogL: -5712.710 / Time: 0h:1m:18s (0h:0m:28s left)
+Iteration 230 / LogL: -5712.703 / Time: 0h:1m:22s (0h:0m:25s left)
+Iteration 240 / LogL: -5721.790 / Time: 0h:1m:27s (0h:0m:21s left)
+Iteration 250 / LogL: -5712.691 / Time: 0h:1m:30s (0h:0m:18s left)
+Log-likelihood cutoff on original alignment: -5753.245
+Iteration 260 / LogL: -5712.703 / Time: 0h:1m:35s (0h:0m:14s left)
+Iteration 270 / LogL: -5712.699 / Time: 0h:1m:39s (0h:0m:11s left)
+Iteration 280 / LogL: -5778.266 / Time: 0h:1m:43s (0h:0m:7s left)
+Iteration 290 / LogL: -5712.697 / Time: 0h:1m:47s (0h:0m:3s left)
+Iteration 300 / LogL: -5712.708 / Time: 0h:1m:50s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -5753.245
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.987
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 310 / LogL: -5718.788 / Time: 0h:1m:55s (0h:0m:33s left)
+Iteration 320 / LogL: -5712.707 / Time: 0h:1m:59s (0h:0m:29s left)
+Iteration 330 / LogL: -5712.702 / Time: 0h:2m:3s (0h:0m:26s left)
+Iteration 340 / LogL: -5712.701 / Time: 0h:2m:7s (0h:0m:22s left)
+Iteration 350 / LogL: -5747.144 / Time: 0h:2m:11s (0h:0m:18s left)
+Log-likelihood cutoff on original alignment: -5753.245
+Iteration 360 / LogL: -5712.694 / Time: 0h:2m:16s (0h:0m:15s left)
+Iteration 370 / LogL: -5720.702 / Time: 0h:2m:21s (0h:0m:11s left)
+Iteration 380 / LogL: -5712.706 / Time: 0h:2m:25s (0h:0m:7s left)
+Iteration 390 / LogL: -5712.697 / Time: 0h:2m:30s (0h:0m:3s left)
+Iteration 400 / LogL: -5712.705 / Time: 0h:2m:34s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -5753.245
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.991
+TREE SEARCH COMPLETED AFTER 400 ITERATIONS / Time: 0h:2m:34s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -5712.669
+2. Current log-likelihood: -5712.576
+3. Current log-likelihood: -5712.478
+4. Current log-likelihood: -5712.380
+5. Current log-likelihood: -5712.282
+6. Current log-likelihood: -5712.185
+7. Current log-likelihood: -5712.088
+8. Current log-likelihood: -5711.991
+9. Current log-likelihood: -5711.895
+10. Current log-likelihood: -5711.799
+11. Current log-likelihood: -5711.704
+12. Current log-likelihood: -5711.609
+13. Current log-likelihood: -5711.515
+14. Current log-likelihood: -5711.421
+15. Current log-likelihood: -5711.329
+16. Current log-likelihood: -5711.238
+17. Current log-likelihood: -5711.147
+18. Current log-likelihood: -5711.057
+19. Current log-likelihood: -5710.968
+20. Current log-likelihood: -5710.881
+21. Current log-likelihood: -5710.795
+22. Current log-likelihood: -5710.711
+23. Current log-likelihood: -5710.626
+24. Current log-likelihood: -5710.545
+25. Current log-likelihood: -5710.464
+26. Current log-likelihood: -5710.384
+27. Current log-likelihood: -5710.306
+28. Current log-likelihood: -5710.229
+29. Current log-likelihood: -5710.154
+30. Current log-likelihood: -5710.081
+31. Current log-likelihood: -5710.010
+32. Current log-likelihood: -5709.942
+33. Current log-likelihood: -5709.876
+34. Current log-likelihood: -5709.812
+35. Current log-likelihood: -5709.749
+36. Current log-likelihood: -5709.689
+37. Current log-likelihood: -5709.631
+38. Current log-likelihood: -5709.575
+39. Current log-likelihood: -5709.521
+40. Current log-likelihood: -5709.469
+41. Current log-likelihood: -5709.420
+42. Current log-likelihood: -5709.372
+43. Current log-likelihood: -5709.327
+44. Current log-likelihood: -5709.284
+45. Current log-likelihood: -5709.243
+46. Current log-likelihood: -5709.204
+47. Current log-likelihood: -5709.168
+48. Current log-likelihood: -5709.133
+49. Current log-likelihood: -5709.100
+50. Current log-likelihood: -5709.069
+51. Current log-likelihood: -5709.040
+52. Current log-likelihood: -5709.012
+53. Current log-likelihood: -5708.986
+54. Current log-likelihood: -5708.962
+55. Current log-likelihood: -5708.940
+56. Current log-likelihood: -5708.919
+57. Current log-likelihood: -5708.900
+58. Current log-likelihood: -5708.881
+59. Current log-likelihood: -5708.865
+60. Current log-likelihood: -5708.849
+61. Current log-likelihood: -5708.835
+62. Current log-likelihood: -5708.822
+63. Current log-likelihood: -5708.810
+64. Current log-likelihood: -5708.798
+65. Current log-likelihood: -5708.788
+Optimal log-likelihood: -5708.778
+Rate parameters:  A-C: 2.13544  A-G: 18.11197  A-T: 2.13544  C-G: 1.00000  C-T: 18.11197  G-T: 1.00000
+Base frequencies:  A: 0.347  C: 0.182  G: 0.216  T: 0.255
+Site proportion and rates:  (0.910,0.599) (0.090,5.062)
+Parameters optimization took 65 rounds (2.560 sec)
+BEST SCORE FOUND : -5708.778
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+6.528 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file H1avN2_France_2020-2022.HA.clean.mafft.fasta.splits.nex
+Total tree length: 0.258
+
+Total number of iterations: 400
+CPU time used for tree search: 152.433 sec (0h:2m:32s)
+Wall-clock time used for tree search: 153.210 sec (0h:2m:33s)
+Total CPU time used: 163.053 sec (0h:2m:43s)
+Total wall-clock time used: 164.206 sec (0h:2m:44s)
+
+Computing bootstrap consensus tree...
+Reading input file H1avN2_France_2020-2022.HA.clean.mafft.fasta.splits.nex...
+133 taxa and 3472 splits.
+Consensus tree written to H1avN2_France_2020-2022.HA.clean.mafft.fasta.contree
+Reading input trees file H1avN2_France_2020-2022.HA.clean.mafft.fasta.contree
+Log-likelihood of consensus tree: -5708.969
+
+Analysis results written to: 
+  IQ-TREE report:                H1avN2_France_2020-2022.HA.clean.mafft.fasta.iqtree
+  Maximum-likelihood tree:       H1avN2_France_2020-2022.HA.clean.mafft.fasta.treefile
+  Likelihood distances:          H1avN2_France_2020-2022.HA.clean.mafft.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          H1avN2_France_2020-2022.HA.clean.mafft.fasta.splits.nex
+  Consensus tree:                H1avN2_France_2020-2022.HA.clean.mafft.fasta.contree
+  Screen log file:               H1avN2_France_2020-2022.HA.clean.mafft.fasta.log
+
+Date and Time: Mon Oct  7 11:57:53 2024
