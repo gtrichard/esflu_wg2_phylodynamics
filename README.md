@@ -1,3 +1,6 @@
+[![image](https://github.com/user-attachments/assets/ae1caace-2451-40ed-b367-3c5f4a4947e8)](https://doi.org/10.5281/zenodo.14234798)
+
+
 ## ESFLU WG2 Training School: Zero to Hero Phylogenetics and Phylodynamics
 
 
@@ -20,6 +23,12 @@ Gautier Richard [![id](https://github.com/user-attachments/assets/74994734-59ee-
 Chiara Chiapponi [![id](https://github.com/user-attachments/assets/74994734-59ee-4f2d-98b1-a6f18b69cc9a)](https://orcid.org/0000-0001-8808-4680) <sup>4</sup>.
 
 4: Istituto Zooprofilattico Sperimentale della Lombardia ed Emilia Romagna, Brescia, Italy.
+
+
+### Citation
+
+If you use the methods described in this repository Wiki, please cite the following:
+
 
 
 ### Funding
