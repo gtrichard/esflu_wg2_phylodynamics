@@ -8,6 +8,11 @@ This training school will guide you from how to make, use and modify and align f
 Head to the wiki to get all the information and the training material! 
 https://github.com/gtrichard/esflu_wg2_phylodynamics/wiki
 
+### Citation
+
+**If you use the methods described in this repository Wiki, please cite the following:**
+
+**Richard, G., Byrne, A. M. P., Cavicchio, L., Chiapponi, C., & Fusaro, A. (2024, November 28). ESFLU WG2 Training School: Phylogenetics and Phylodynamics from Zero to Hero. Zenodo. https://doi.org/10.5281/zenodo.14234798**
 
 ### Authors
 
@@ -24,12 +29,6 @@ Gautier Richard [![id](https://github.com/user-attachments/assets/74994734-59ee-
 Chiara Chiapponi [![id](https://github.com/user-attachments/assets/74994734-59ee-4f2d-98b1-a6f18b69cc9a)](https://orcid.org/0000-0001-8808-4680) <sup>4</sup>.
 
 4: Istituto Zooprofilattico Sperimentale della Lombardia ed Emilia Romagna, Brescia, Italy.
-
-
-### Citation
-
-If you use the methods described in this repository Wiki, please cite the following:
-
 
 
 ### Funding
