@@ -26,7 +26,7 @@ Gautier Richard [![id](https://github.com/user-attachments/assets/74994734-59ee-
 
 ### Local Organizers
 
-Chiara Chiapponi [![id](https://github.com/user-attachments/assets/74994734-59ee-4f2d-98b1-a6f18b69cc9a)](https://orcid.org/0000-0001-8808-4680) <sup>4</sup>.
+Chiara Chiapponi [![id](https://github.com/user-attachments/assets/74994734-59ee-4f2d-98b1-a6f18b69cc9a)](https://orcid.org/0000-0001-8808-4680) <sup>4</sup>, Alice Prosperi  [![id](https://github.com/user-attachments/assets/74994734-59ee-4f2d-98b1-a6f18b69cc9a)](https://orcid.org/0000-0002-1134-9764) <sup>4</sup>
 
 4: Istituto Zooprofilattico Sperimentale della Lombardia ed Emilia Romagna, Brescia, Italy.
 
