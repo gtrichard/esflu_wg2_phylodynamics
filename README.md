@@ -3,6 +3,7 @@
 
 ## ESFLU WG2 Training School: Zero to Hero Phylogenetics and Phylodynamics
 
+This training school will guide you from how to make, use and modify and align fasta files, make maximum-likelihood time-scaled phylogenies, up to performing phylodynamic and phylogeographic analyses with BEAST. Everything can be followed remotely thanks to short GIFs and step-by-step guides.
 
 Head to the wiki to get all the information and the training material! 
 https://github.com/gtrichard/esflu_wg2_phylodynamics/wiki
