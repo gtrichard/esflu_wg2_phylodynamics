@@ -12,7 +12,7 @@ https://github.com/gtrichard/esflu_wg2_phylodynamics/wiki
 
 **If you use the methods described in this repository Wiki, please cite the following:**
 
-**Richard, G., Byrne, A. M. P., Cavicchio, L., Chiapponi, C., & Fusaro, A. (2024, November 28). ESFLU WG2 Training School: Phylogenetics and Phylodynamics from Zero to Hero. Zenodo. https://doi.org/10.5281/zenodo.14234798**
+**Richard, G., Byrne, A. M. P., Cavicchio, L., Chiapponi, C., Prosperi, A., & Fusaro, A. (2024, November 28). ESFLU WG2 Training School: Phylogenetics and Phylodynamics from Zero to Hero. Zenodo. https://doi.org/10.5281/zenodo.14234798**
 
 ### Authors
 
